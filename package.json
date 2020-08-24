@@ -1,0 +1,30 @@
+{
+  "name": "completepodiatry",
+  "version": "1.0.0",
+  "description": "A web app for complete podiatry",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "jest": "^26.4.2",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcorum11/completePodiatry.git"
+  },
+  "author": "Jake Corum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcorum11/completePodiatry/issues"
+  },
+  "homepage": "https://github.com/jcorum11/completePodiatry#readme"
+}
